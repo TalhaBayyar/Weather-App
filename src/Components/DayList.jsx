@@ -25,7 +25,7 @@ function DayList() {
       {
         weatherinfo.map((data, index) => (
           <div key={index} className="shadow-[120px_55px_100px_-15px_rgba(0,0,0,0.3)] w-1/3 xs:w-2/5 lg:w-1/5 lg:p-12 mt-8">
-            <h2 className="text-center font-bold text-base text-[13px] sm:text-[22px] lg:text-2xl">{formatDay(data.dt_txt)} {formatHours(data.dt_txt)}</h2>
+            <h2 className="text-center font-bold text-base text-[10px] sm:text-[22px] lg:text-2xl">{formatDay(data.dt_txt)} {formatHours(data.dt_txt)}</h2>
             <div className='flex items-center justify-center filter brightness-125'>
               <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="Hava Durumu" className="w-20 h-20 "/>
             </div>
