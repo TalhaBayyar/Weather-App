@@ -11,7 +11,7 @@ function WeatherProvider({ children }) {
 
   const API_KEY = '8d23efb8d2549ba8c72cc0243a57f331';
 
-  const API_URL = `http://api.openweathermap.org/data/2.5/forecast?q=${sehir}&cnt=25&units=metric&lang=tr&appid=${API_KEY}`
+  const API_URL = `https://api.openweathermap.org/data/2.5/forecast?q=${sehir}&cnt=25&units=metric&lang=tr&appid=${API_KEY}`
   
   
   // http://api.openweathermap.org/data/2.5/forecast?q=${sehir}&cnt=5&units=metric&appid=${API_KEY}
