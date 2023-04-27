@@ -1,6 +1,7 @@
 import WeatherProvider from './Context/WeatherProvider';
 import Container from './Components/Container'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
 function App() {
   
   return (

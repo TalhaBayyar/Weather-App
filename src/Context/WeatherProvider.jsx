@@ -1,6 +1,6 @@
 import { React, createContext, useEffect, useState } from 'react'
 import axios from 'axios'
-import data from "../data/cities.json"
+import data from "../Data/cities.json"
 
 export const WeatherContext = createContext()
   
