@@ -1,8 +1,7 @@
-import { React, useContext } from 'react'
-import { WeatherContext } from '../Context/WeatherProvider'
+import { useWeather } from '../Context/WeatherProvider'
 
 function DropDown() {
-  const { cities,sehir, setSehir } = useContext(WeatherContext)
+  const { cities,sehir, setSehir } = useWeather();
   return (
   <div className="flex justify-center mb-8">
     <div>

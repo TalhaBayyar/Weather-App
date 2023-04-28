@@ -1,8 +1,7 @@
-import { React, useContext } from 'react'
-import { WeatherContext } from '../Context/WeatherProvider';
+import { useWeather } from '../Context/WeatherProvider';
 
 function DayList() {
-  const { weatherinfo } = useContext(WeatherContext)
+  const { weatherinfo } = useWeather();
 
   const formatDay = (dateStr) => {
     const daysOfWeek = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
